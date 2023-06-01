@@ -5,7 +5,16 @@ using namespace std;
 int main()
 {
     string s = "hello";
-    s = "gello sdlfsjo oifjf";
-    cout << s << endl;
+    string s2 = "gello sdlfsjo oifjf";
+    // if(strcmp(s,s2)){
+    if (s == s2)
+    {
+        cout << "Same" << endl;
+    }
+    else
+    {
+
+        cout << "not same" << endl;
+    }
     return 0;
 }
